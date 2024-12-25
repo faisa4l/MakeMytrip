@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #7e2c2c; 
+    color: #fff;
+    padding: 20px; 
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 32px; 
+    font-style: italic;
+    margin-bottom: 10px; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px; 
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #ffc107; 
+}
+
+
+main {
+    padding: 20px;
+}
+
+.search-booking {
+    background-image: url("https://images.pexels.com/photos/2891249/pexels-photo-2891249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); /* Set your background image URL */
+    background-size: cover; 
+    background-position: center; 
+    text-align: center; 
+    padding: 100px 0; 
+    height: 90vh; 
+}
+
+
+.search-content {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    border-radius: 10px; 
+    display: inline-block;
+}
+
+.search-content h2 {
+    color: #333; 
+}
+
+.search-content form input,
+.search-content form select,
+.search-content form button {
+    margin: 10px 0; 
+    padding: 10px; 
+}
+
+.search-content form input[type="date"] {
+    width: 160px; 
+}
+
+.search-content form button {
+    background-color: #284768; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    border-radius: 50px;
+}
+
+.search-content form button:hover {
+    background-color: #174371; 
+}
+
+
+.results {
+    background-position: center;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
